@@ -1,0 +1,73 @@
+.container{
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+h1 {
+    color: #3541f0;
+    font-size: x-large;
+}
+.btn{
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    border: solid 1px #3541f0;
+    color: #3541f0;
+    background-color: whitesmoke;
+}
+.btn:hover{
+    cursor: pointer;
+    box-shadow: 0 2px 2px blueviolet;
+}
+.flexcolumn{
+    display: flex;
+    flex-direction: column;
+}
+.container-scelta{
+    display: flex;
+    width: 100%;
+    margin-bottom: 5px;
+    font-size: medium;
+    background-color: aliceblue;
+    border: solid 1px #8289f0ab;
+}
+.container-scelta:hover{
+    cursor: pointer;
+    box-shadow: 0 2px 2px rgb(226, 43, 43);
+}
+.indice-scelta{
+    background-color: rgba(11, 11, 235, 0.678);
+    padding: 2px;
+    color: wheat;
+}
+.testo-scelta{
+    padding: 10px;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+.testo-scelta:active{
+background-color: yellow;
+}
+#next{
+    display: flex;
+    position:absolute;
+    top: 24rem;
+    color: blue;
+    border: dotted 2px red;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#next:hover{
+    background-color: rgba(102, 51, 153, 0.459);
+    color: black;
+}
+#next:active{
+    color: white;
+    background-color: red;
+    border: dotted 2px green;
+
+}

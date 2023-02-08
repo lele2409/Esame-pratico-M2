@@ -1,0 +1,32 @@
+img {
+    width: 50px;
+}
+body{
+    max-width: 650px;
+    margin: auto;
+}
+h1{
+    text-align: center;
+}
+a{
+    color: darkgreen;
+}
+.bordo{
+    border: solid 1px;
+    border-radius: 25px;
+}
+p{
+    margin: 10px;
+}
+.font{
+    font-size: x-large;
+    font-weight: bold;
+}
+.casper{
+    display: none;
+}
+td{
+    border: solid 2px green;
+    border-bottom: dotted 3px red;
+    border-top: dotted 3px red ;
+}
